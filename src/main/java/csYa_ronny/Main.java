@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         int[] values = {45, 35, -67, -45, 20, -1, 45};
         int result = func(values);
+        System.out.println(result);
     }
 
     public static int func(int[] nums) {
